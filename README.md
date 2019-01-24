@@ -1,2 +1,3 @@
-# Crypto
-crypto challenges
+# Cryptography
+crypto challenges & Tips
+
