@@ -1,3 +1,4 @@
+##################################challenge 1####################################
 ##Convert hex to base64##
 # Rules:
 # 1-Always operate on raw bytes
@@ -55,3 +56,9 @@ def hexToBase64(string):
             j += 6
         out = F"{out}="
     return(out)
+
+
+def FixedXor(buff, xorBuff):
+    if len(buff) == len(xorBuff):
+        return (hex(int(buff, 16) ^ int(xorBuff, 16)))
+    return(-1)
